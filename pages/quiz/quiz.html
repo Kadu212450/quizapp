@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="quiz.css">
     <title>Quiz app</title>
 </head>
 <body>
@@ -30,19 +34,23 @@
 
             <h2>Qual o significado de HTML?</h2>
 
-            <div class="barra_progresso"></div>
+            <div class="barra_progresso">
+                <div></div>
+            </div>
+            
         </section> 
          
-        <section class="Alternativas">
+        <section class="alternativas">
             <form action="">
                 <label for="alternativa_a">
                     <input type="radio" id="alternativa_a">
-                </label>
-                <div>
+                
+                 <div>
                     <span>A</span> 
                     Hyper Trainer Marking Language
 
-                </div>
+                 </div>
+                </label>
                 <label for="alternativa_b">
                     <input type="radio" id="alternativa_b">
                     <div>
@@ -53,18 +61,22 @@
 
                 <label for="alternativa_c">
                     <input type="radio" id="alternativa_c">
+                
+                  <div>
+                     <span>C</span>
+                     Hyper Text Markup Language
+                  </div>
                 </label>
-                <div>
-                    <span>C</span>
-                    Hyper Text Markup Language
-                </div>
                 <label for="alternativa_d">
                     <input type="radio" id="alternativa_d">
-                </label>
-                <div>
+                
+                  <div>
                     <span>D</span>
                     Hyper Text Markup Leveler
-                </div>
+                  </div>
+                    
+                 
+                </label>
             </form>
             <button>Enviar</button>
 
